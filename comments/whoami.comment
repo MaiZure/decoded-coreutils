@@ -1,0 +1,14 @@
+1        This is the whoami utility
+1:16     The GNUv3 license
+23       sys/types.h defines uid_t
+34       Utility name macro to assist usage() output
+36       Program authors macro used in parsing
+38:41    The global long options structure
+38       Defines long options processed in parsing (see main)
+40       whoami has no long options
+63:97    The main() function for whoami
+64       main() takes the usual arguments  ...the arg count  ...the arg vector
+84:87    If the user passed some operand...
+85       Throw an error message
+86       Print proper usage and exit failure
+90       Retrieve UID running this process
