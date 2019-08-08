@@ -1,6 +1,6 @@
 # Decoded-GNU-Coreutils comment repo
 
-This repo contains the comments used to generate the line-by-line walkthroughs for the [Decoded-GNU-Coreutils project](http://www.maizure.org/projects/decoded-gnu-coreutils). 
+This repo contains the comments used to generate the line-by-line walkthroughs for the [Decoded: GNU coreutils](http://www.maizure.org/projects/decoded-gnu-coreutils) project.
 
 The .comment files are skeletons to fill in over time. These .comment files are combined with the source from my mirror of the v8.3 source and generated markup on the website.
 
