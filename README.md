@@ -4,7 +4,7 @@ This repo contains the comments used to generate the line-by-line walkthroughs f
 
 The .comment files are skeletons to fill in over time. These .comment files are combined with the source from my mirror of the v8.3 source and generated markup on the website.
 
-For example: The [whoami](https://github.com/MaiZure/coreutils-8.3/blob/master/src/whoami.c) source is combined with the [whoami.comments] file(https://github.com/MaiZure/decoded-coreutils/blob/master/comments/whoami.comment) and the [resulting walkthrough](http://www.maizure.org/projects/decoded-gnu-coreutils/whoami_walkthrough.html) is generated on my website via some server-side scripting magic. (magic not included in this repo) 
+For example: The [whoami](https://github.com/MaiZure/coreutils-8.3/blob/master/src/whoami.c) source is combined with the [whoami.comments](https://github.com/MaiZure/decoded-coreutils/blob/master/comments/whoami.comment) file and the [resulting walkthrough](http://www.maizure.org/projects/decoded-gnu-coreutils/whoami_walkthrough.html) is generated on my website via some server-side scripting magic. (magic not included in this repo) 
 
 As of August 2019, only 'whoami' has any useful contributions. All others are frameworks but are visible on the website.
 
