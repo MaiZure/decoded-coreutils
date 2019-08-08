@@ -27,4 +27,4 @@ The only markup current supported is a double space forces a new line. I may mak
 ## Contributions
 Feel free to contribute although I admit this is a huge workload and quite boring. I'll knock it out myself over the long haul
 
-NOTE: Updating this repo does not immediately for the website to update. I have to cast the spells manually for now.
+NOTE: Updating this repo does not immediately update the website. I have to cast the spells manually for now.
