@@ -27,6 +27,6 @@ The only markup current supported is a double space forces a new line. I may mak
 ## Contributions
 Feel free to contribute although I admit this is a huge workload and quite boring. I'll knock it out myself over the long haul
 
-Some of the placeholder .comment files don't line up well with the source code (such as 'ptx'). These were generated with a quick and dirty parser rather than a full on yacc/flex/bison solution. Since all files require going through by hand, I'll fix them when the time comes.
+Some of the placeholder .comment files don't line up well with the source code (such as 'ptx'). These were generated with a quick and dirty parser rather than a general yacc/flex/bison solution. Since all files require going through by hand, I'll fix them when the time comes.
 
 NOTE: Updating this repo does not immediately update the website. I have to cast the spells manually for now.
