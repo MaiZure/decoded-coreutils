@@ -6,8 +6,26 @@
 38:41    The global long options structure
 38       Defines long options processed in parsing (see main)
 40       whoami has no long options
+44:61    The usage function describing syntax
 63:97    The main() function for whoami
+46       If the failure is due to user error...
+47       Suggest the user try --help (See system.h)
+49:59    The user passed --help
+50       Print the suggested usage format
+51       _() is defined to gettext()
+52       Prints the utility purpose
+53       whoami is the same as id
+55       Push help output to STDOUT
+56       Print --help description (See system.h)
+57       Print --version description (See system.h)
+58       Print help extras
+60       Exit using provided status
 64       main() takes the usual arguments  ...the arg count  ...the arg vector
+66       Local pointer to passwd info after getpwuid() call
+67       Declares a uid_t to hold geteuid() result
+68       Defines a failure constant to compare
+78       Parses long options...
+79       ...which are only --help and --version
 80       If the user provides any additional options...
 81       ...print usage and failure since none are valid
 83       If the user passed some operand...  (there are no valid operands)
