@@ -7,7 +7,7 @@ The .comment files are skeletons to fill in over time. These .comment files are 
 For example: The [whoami](https://github.com/MaiZure/coreutils-8.3/blob/master/src/whoami.c) source is combined with the [whoami.comments](https://github.com/MaiZure/decoded-coreutils/blob/master/comments/whoami.comment) file and the [resulting walkthrough](http://www.maizure.org/projects/decoded-gnu-coreutils/whoami_walkthrough.html) is generated on my website via some server-side scripting magic. (magic not included in this repo) 
 
 As of August 2019, only 'whoami' has any useful contributions. All others are utilities are placeholders that are generated, but mostly useless. Such as: 
-[tee](http://www.maizure.org/projects/decoded-gnu-coreutils/tee_walkthrough.html)
+[tee](http://www.maizure.org/projects/decoded-gnu-coreutils/tee_walkthrough.html),
 [timeout](http://www.maizure.org/projects/decoded-gnu-coreutils/timeout_walkthrough.html)
 
 ## Files
