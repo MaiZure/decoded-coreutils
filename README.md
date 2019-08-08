@@ -20,7 +20,7 @@ In addition to .comment files there are three other special files tha contain co
 Entries in these files will apply to occurrances across all utilties. However, these can be overrided by adding the line manually to the specific utility
 
 ## Usage
-Look at the .comment files to see how they work. In general, a line number and a comment on a single line.
+Look at the .comment files to see how they work. For now, the 'whoami' comments and results are the model to use. In general, a line number and a comment on a single line.
 
 The only markup current supported is a double space forces a new line. I may make this more complicated as time goes by...or maybe not. KISS
 
