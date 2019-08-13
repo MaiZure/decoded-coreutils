@@ -6,7 +6,7 @@
 38:41    The global long options structure
 38       Defines long options processed in parsing (see main)
 40       whoami has no long options
-44:61    The usage function describing syntax
+44:61    The usage() function describing syntax
 63:97    The main() function for whoami
 46       If the failure is due to user error...
 47       Suggest the user try --help (See system.h)

@@ -7,7 +7,7 @@
 55        Line 55
 56        Line 56
 58        Line 58
-56:92     Block 3
+56:92     The usage() function describing syntax
 60        Line 60
 62        Line 62
 63        Line 63
@@ -35,10 +35,10 @@
 91        Line 91
 96        Line 96
 98        Line 98
-96:99     Block 4
+96:99     enum type to define unrepresented long options
 101       Line 101
 103       Line 103
-101:113   Block 5
+101:113   Structure definitions for long options
 104       Line 104
 105       Line 105
 106       Line 106
@@ -51,13 +51,14 @@
 115       Line 115
 116       Line 116
 118       Line 118
-116:135   Block 6
+116:135   Loads user-provided arguments in to an array
 119       Line 119
 120       Line 120
 122       Line 122
 123       Line 123
 124       Line 124
 126       Line 126
+126:132   Loop
 128       Line 128
 129       Line 129
 130       Line 130
@@ -66,12 +67,12 @@
 140       Line 140
 141       Line 141
 143       Line 143
-141:145   Block 7
+141:145   Returns a pointer to the next line
 144       Line 144
 149       Line 149
 150       Line 150
 152       Line 152
-150:169   Block 8
+150:169   Returns the size of the input, if possible
 154       Line 154
 155       Line 155
 156       Line 156
@@ -89,12 +90,13 @@
 176       Line 176
 177       Line 177
 179       Line 179
-177:237   Block 9
+175:237   Read lines in input for reservoir sampling
 180       Line 180
 181       Line 181
 182       Line 182
 184       Line 184
 187       Line 187
+187:207   Inner block
 188       Line 188
 189       Line 189
 191       Line 191
@@ -104,6 +106,7 @@
 198       Line 198
 199       Line 199
 204       Line 204
+204:229   Inner block
 206       Line 206
 207       Line 207
 220       Line 220
@@ -118,9 +121,10 @@
 236       Line 236
 239       Line 239
 240       Line 240
+240:251   Outputs lines from the reservoir
 241       Line 241
 243       Line 243
-241:251   Block 10
+244:248   Inner block
 245       Line 245
 246       Line 246
 247       Line 247
@@ -128,7 +132,7 @@
 259       Line 259
 260       Line 260
 262       Line 262
-260:297   Block 11
+260:297   Reads lines from input for permutation
 263       Line 263
 264       Line 264
 265       Line 265
@@ -151,17 +155,19 @@
 304       Line 304
 305       Line 305
 307       Line 307
-305:316   Block 12
+304:316   Outputs lines using a permutation index
+307:313   Loop
 309       Line 309
 310       Line 310
 311       Line 311
 312       Line 312
 315       Line 315
 320       Line 320
+321:332   Outputs a permuted number range
 321       Line 321
 322       Line 322
 324       Line 324
-322:332   Block 13
+324:329   Loop
 326       Line 326
 327       Line 327
 328       Line 328
@@ -170,17 +176,19 @@
 337       Line 337
 338       Line 338
 340       Line 340
-338:350   Block 14
+337:350   Outputs a random number range
+342:347   Loop
 342       Line 342
 344       Line 344
 345       Line 345
 346       Line 346
 349       Line 349
 355       Line 355
+356:369   Outputs random lines with replacement
 356       Line 356
 357       Line 357
 359       Line 359
-357:369   Block 15
+359:366   Loop
 361       Line 361
 362       Line 362
 363       Line 363
@@ -189,7 +197,7 @@
 368       Line 368
 372       Line 372
 374       Line 374
-372:610   Block 16
+372:610   The main function for shuf
 375       Line 375
 376       Line 376
 377       Line 377
@@ -266,19 +274,24 @@
 477       Line 477
 480       Line 480
 481       Line 481
+484:488   Inner block
 484       Line 484
 486       Line 486
 487       Line 487
+489:493   Inner block
 489       Line 489
 491       Line 491
 492       Line 492
+496:501   Inner block
 496       Line 496
 498       Line 498
 499       Line 499
 500       Line 500
+502:506   Inner block
 502       Line 502
 504       Line 504
 505       Line 505
+507:528   Inner block
 507       Line 507
 510       Line 510
 511       Line 511
@@ -300,6 +313,7 @@
 536       Line 536
 537       Line 537
 538       Line 538
+540:547   Inner block
 540       Line 540
 544       Line 544
 545       Line 545
@@ -311,6 +325,7 @@
 557       Line 557
 559       Line 559
 560       Line 560
+563:577   Inner block
 563       Line 563
 565       Line 565
 566       Line 566
@@ -322,7 +337,7 @@
 573       Line 573
 574       Line 574
 575       Line 575
-578       Line 578
+578:587   Inner block
 580       Line 580
 581       Line 581
 582       Line 582
@@ -335,9 +350,11 @@
 592       Line 592
 593       Line 593
 594       Line 594
+595:599   Inner block
 595       Line 595
 597       Line 597
 598       Line 598
+600:606   Inner block
 600       Line 600
 602       Line 602
 603       Line 603
