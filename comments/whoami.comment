@@ -7,7 +7,6 @@
 38       Defines long options processed in parsing (see main)
 40       whoami has no long options
 44:61    The usage() function describing syntax
-63:97    The main() function for whoami
 46       If the failure is due to user error...
 47       Suggest the user try --help (See system.h)
 49:59    The user passed --help
@@ -20,6 +19,7 @@
 57       Print --version description (See system.h)
 58       Print help extras
 60       Exit using provided status
+63:97    The main() function for whoami
 64       main() takes the usual arguments  ...the arg count  ...the arg vector
 66       Local pointer to passwd info after getpwuid() call
 67       Declares a uid_t to hold geteuid() result

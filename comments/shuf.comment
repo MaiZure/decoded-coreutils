@@ -1,15 +1,15 @@
 1         This is the shuf utility
 1:18      The GNUv3 license
-39        Line 39
-41        Line 41
-44        Line 44
-52        Line 52
-55        Line 55
-56        Line 56
-58        Line 58
+39        Utility name macro to assist usage() output
+41        Program author macro used in parsing
+44        Constant value used for th reservoir growth increment
+52        Constant value for minimum size to invoke reservoir
 56:92     The usage() function describing syntax
-60        Line 60
-62        Line 62
+56        Usage takes one argument  ..the return status
+58        If the failure is due to user error...
+59        Suggest the user try --help (See system.h)
+61:89     The user passed --help
+62        Line 62 
 63        Line 63
 64        Line 64
 65        Line 65
